@@ -112,3 +112,50 @@ nav li a {
         margin-top: 25px;
     }
 }
+
+/* main styles goes here */
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* teams section style */
+.teams-container {
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+}
+
+.teams-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.1rem;
+}
+
+.teams-content {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.teams-description {
+    margin: 24px 0 24px;
+}
+
+.teams-title {
+    font-size: 2.8rem;
+}
+
+.teams-title .quick-list {
+    color: #727272;
+    font-weight: 500;
+}
+
+.teams-title .of-our {
+    color: #131313;
+    font-weight: 700;
+}
+
+.teams-title .features {
+    color: #FF900E;
+    font-weight: 700;
+}
