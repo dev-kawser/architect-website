@@ -1,4 +1,78 @@
+/* font style from google */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700;800;900&display=swap');
-*{
+
+/* general style goes here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+/* header style goes here */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: #131313;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+    margin-right: 10px;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner styles goes here */
+
+.banner-content {
+    width: 850px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 115px;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
