@@ -134,11 +134,54 @@ main {
     font-weight: 700;
 }
 
-/* facts section style */
-
-.facts {
-    margin-top: 175px;
+/* features section styles */
+.features {
+    display: flex;
+    margin-top: 130px;
+    gap: 130px;
 }
+
+.features .section-title {
+    border-left: 7px solid #FF900E;
+    padding-left: 20px;
+}
+
+.features .card {
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature-img img {
+    height: 80%;
+    margin-left: 100px;
+}
+
+.ten-years {
+    border-radius: 10px;
+    background: #FF900E;
+    color: #fff;
+    width: 300px;
+    padding: 40px 30px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.ten-years h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+
+}
+
+.ten-years p {
+    font-size: 1.5rem;
+    font-weight: 500px;
+}
+
+/* facts section style */
 
 .facts-card-container {
     margin: 100px 0 180px;
@@ -184,6 +227,23 @@ main {
     width: 165px;
 }
 
+/* footer section styles */
+footer {
+    margin: 130px 240px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #424242;
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding: 30px 200px;
+}
+
+/* styles end */
+
 
 /* responsive media query */
 
@@ -199,6 +259,7 @@ main {
 
     nav,
     .teams-container,
+    .features,
     .facts-card-container,
     .sponsors-img-container {
         flex-direction: column;
@@ -217,13 +278,41 @@ main {
         padding-right: 20px;
     }
 
+    .feature-img {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .feature-img img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .ten-years {
+        position: static;
+        width: 300px;
+    }
+
     .facts {
         padding-left: 20px;
         padding-right: 20px;
     }
 
+    .facts .section-title {
+        margin-top: 50px;
+    }
+
     .facts-card-container {
         gap: 20px;
+    }
+
+    footer {
+        margin: 10px;
+    }
+
+    footer p {
+        padding: 0;
+        font-size: 13px;
     }
 }
 
@@ -235,6 +324,7 @@ main {
 
     nav,
     .teams-container,
+    .features,
     .sponsors-img-container {
         flex-direction: column;
     }
@@ -245,6 +335,10 @@ main {
 
     .teams-content {
         margin-top: 50px;
+    }
+
+    .feature-img {
+        padding-left: 10px;
     }
 
     .facts {
@@ -259,5 +353,9 @@ main {
     .sponsors {
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    footer {
+        margin: 50px;
     }
 }
