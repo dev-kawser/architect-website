@@ -180,7 +180,8 @@ main {
     }
 
     nav,
-    .teams-container {
+    .teams-container,
+    .facts-card-container {
         flex-direction: column;
     }
 
@@ -196,6 +197,16 @@ main {
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    .facts {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .facts-card-container {
+        gap: 20px;
+    }
+
 }
 
 /* tablet or medium devices */
@@ -215,5 +226,14 @@ main {
 
     .teams-content {
         margin-top: 50px;
+    }
+
+    .facts {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .facts-card-container {
+        gap: 10px;
     }
 }
